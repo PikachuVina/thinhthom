@@ -158,7 +158,7 @@ function MessageHuongDan($receiver){
 			"id":"' . $receiver . '"
 		},
 		"message": {
-			"text":"Xin chào ^^ \nT-DUT được tạo ra nhằm mục đích tạo nơi cho các bạn trò chuyện, thả thính, làm quen, tán gẫu... hoàn toàn ẩn danh. Đối phương sẽ không biết bạn là ai trừ khi bạn nói :) \nĐể Sử Dụng Bạn Vui Lòng Chọn Vào Menu Bên Trái Khung Chat:\n[Thao Tác]->[Bắt Đầu Thả Thính] - Để Tìm Người Tám\n[Thao Tác]->[Ngừng Thả Thính] - Để Kết Thúc Cuộc Trò Chuyện Hiện Tại\nHoặc Thể Dùng Từ Khóa Nhanh:\n@start - Để Tìm Người Tám\n@stop - Để Kết Thúc Cuộc Trò Chuyện Hiện Tại."
+			"text":"Xin chào ^^ \nT-Thính Thơm được tạo ra nhằm mục đích tạo nơi cho các bạn trò chuyện, thả thính, làm quen, tán gẫu... hoàn toàn ẩn danh. Đối phương sẽ không biết bạn là ai trừ khi bạn nói :) \nĐể Sử Dụng Bạn Vui Lòng Chọn Vào Menu Bên Trái Khung Chat:\n[Thao Tác]->[Bắt Đầu Thả Thính] - Để Tìm Người Tám\n[Thao Tác]->[Ngừng Thả Thính] - Để Kết Thúc Cuộc Trò Chuyện Hiện Tại\nHoặc Thể Dùng Từ Khóa Nhanh:\n@start - Để Tìm Người Tám\n@stop - Để Kết Thúc Cuộc Trò Chuyện Hiện Tại."
 		}
 	}';
 	request($payload);
@@ -177,9 +177,9 @@ function MessageHome($receiver){
 					"template_type": "generic",
 					"elements": [
 						{
-							"title": "DUT-T",
-							"subtitle": "DUT Thính",
-							"item_url": "http://thien-it.me",
+							"title": "Thính Thơm",
+							"subtitle": "Bả không phải Thính",
+							"item_url": "http://Nghĩa.Vn",
 							"image_url": "http://giaitri.danongonline.com.vn/wp-content/uploads/2016/11/1-1479377234390.jpg",
 							"buttons": [
 								{
