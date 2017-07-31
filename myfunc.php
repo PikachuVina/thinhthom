@@ -292,8 +292,8 @@ function deleteRelationship($userid){
 	$partner = getRelationship($userid);
 	mysqli_query($conn, "UPDATE users SET status = 0, relationship = NULL WHERE id = $userid");
 	mysqli_query($conn, "UPDATE users SET status = 0, relationship = NULL WHERE id = $partner");
-	MessageNoti($userid, "Bạn đã rời khỏi cuộc trò chuyện.", "Like page để cập nhật tin tức về DUT-T nha! ﾍ(￣▽￣*)ﾉ ♪♪");
-	MessageNoti($partner, "Người lạ đã rời khỏi cuộc trò chuyện.", "Like page để cập nhật tin tức về DUT-T nha! ﾍ(￣▽￣*)ﾉ ♪♪");
+	MessageNoti($userid, "Bạn đã rời khỏi cuộc trò chuyện.", "Like page để cập nhật tin tức về Thính Thơm nha! ﾍ(￣▽￣*)ﾉ ♪♪");
+	MessageNoti($partner, "Người lạ đã rời khỏi cuộc trò chuyện.", "Like page để cập nhật tin tức về Thính Thơm nha! ﾍ(￣▽￣*)ﾉ ♪♪");
 }
 
 function addUser($userid){
