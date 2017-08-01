@@ -42,7 +42,7 @@ if ($_GET['type'] === 'delete') {
 	        {
 				"type": "web_url",
 				"title": "Contact Info",
-				"url": "http://thien-it.me",
+				"url": "http://nghĩa.vn",
 				"webview_height_ratio": "full"
 	        }
 	      ]
